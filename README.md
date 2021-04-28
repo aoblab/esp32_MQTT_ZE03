@@ -14,5 +14,6 @@ The Node-RED application is subscribed to those topics. So, it receives O3 readi
 
 # Preparing the Arduino IDE
 Installing the PubSubClient Library
-The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED).
+The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED)
+
 https://github.com/knolleary/pubsubclient
