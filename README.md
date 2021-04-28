@@ -1,7 +1,6 @@
 # esp32_MQTT_ZE03
 ![cvbcvvb](https://user-images.githubusercontent.com/32832715/116376370-257e9b80-a84b-11eb-8fb2-a6792777a022.PNG)
-
-This is how to use MQTT communication protocol with the ESP32 to publish messages and subscribe to topics.
+   This is how to use MQTT communication protocol with the ESP32 to publish messages and subscribe to topics.
 
 In this example, there’s a Node-RED application that controls multiple ESP32 and receives O3 sensor readings from the ESP32 using MQTT communication protocol. The Node-RED application is running on a Raspberry Pi.
 
