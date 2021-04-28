@@ -16,4 +16,5 @@ The Node-RED application is subscribed to those topics. So, it receives O3 readi
 To use MQTT with the ESP32 we’ll use the Async MQTT Client Library.
 
 https://github.com/marvinroger/async-mqtt-client
+
 Go to Sketch > Include Library > Add . ZIP library and select the library you’ve just downloaded.
