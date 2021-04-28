@@ -12,4 +12,7 @@ The ESP32 is subscribed to that topic. So, it receives the message with “on”
 The ESP32 publishes O3 value on the esp32_001/O3 topic.
 The Node-RED application is subscribed to those topics. So, it receives O3 readings that can be displayed on a chart or gauge, for example.
 
-# hgdhgfh
+# Preparing the Arduino IDE
+Installing the PubSubClient Library
+The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED).
+https://github.com/knolleary/pubsubclient
