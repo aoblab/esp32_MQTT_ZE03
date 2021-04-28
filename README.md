@@ -1,6 +1,7 @@
 # esp32_MQTT_ZE03
 ![cvbcvvb](https://user-images.githubusercontent.com/32832715/116376370-257e9b80-a84b-11eb-8fb2-a6792777a022.PNG)
-This is how to use MQTT communication protocol with the ESP32 to publish messages and subscribe to topics.  
+This is how to use MQTT communication protocol with the ESP32 to publish messages and subscribe to topics.
+
 In this example, there’s a Node-RED application that controls multiple ESP32 and receives O3 sensor readings from the ESP32 using MQTT communication protocol. The Node-RED application is running on a Raspberry Pi.
 
 We’ll use the Mosquitto broker installed on the same Raspberry Pi. The broker is responsible for receiving all messages, filtering the messages, decide who is interested in them and publishing the messages to all subscribed clients.
@@ -11,10 +12,8 @@ The ESP32 publishes O3 value on the esp32_001/O3 topic.
 The Node-RED application is subscribed to those topics. So, it receives O3 readings that can be displayed on a chart or gauge, for example.
 
 # Preparing the Arduino IDE and MQTT Libraries
-To use MQTT with the ESP32 we’ll use the Async MQTT Client Library.
-
-https://github.com/marvinroger/async-mqtt-client
-
+To use MQTT with the ESP32 we’ll use the Async MQTT Client Library.  
+https://github.com/marvinroger/async-mqtt-client  
 Go to Sketch > Include Library > Add . ZIP library and select the library you’ve just downloaded.
 
 # Preparing Node-RED Dashboard
