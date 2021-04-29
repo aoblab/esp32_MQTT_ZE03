@@ -13,7 +13,7 @@ The Node-RED application is subscribed to those topics. So, it receives O3 readi
 
 # Preparing Installing the PubSubClient Library
 The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED)  
-https://github.com/knolleary/pubsubclient
+https://github.com/knolleary/pubsubclient  
 Go to Sketch > Include Library > Add . ZIP library and select the library you’ve just downloaded.
 
 # Preparing Node-RED Dashboard
