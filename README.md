@@ -31,10 +31,10 @@ pi@raspberry:~ $ bash <(curl -sL https://raw.githubusercontent.com/node-red/rasp
 pi@raspberry:~ $ sudo systemctl enable nodered.service  
 
 ## Installing Node-RED Dashboard
-To install the Node-RED Dashboard run the following commands:  
-pi@raspberry:~ $ node-red-stop
-pi@raspberry:~ $ cd ~/.node-red
-pi@raspberry:~/.node-red $ npm install node-red-dashboard
+To install the Node-RED Dashboard run the following commands:   
+pi@raspberry:~ $ node-red-stop   
+pi@raspberry:~ $ cd ~/.node-red   
+pi@raspberry:~/.node-red $ npm install node-red-dashboard   
 
 ### Now, restart your Pi so the autostart takes effect:
 pi@raspberry:~ $ sudo reboot  
