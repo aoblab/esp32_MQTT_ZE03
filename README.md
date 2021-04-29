@@ -25,19 +25,19 @@ If you don’t have Node-RED installed, follow the URL: https://randomnerdtutori
 Before creating the flow, you need to have installed in your Raspberry Pi:
 
 ### enter the following commands to install Node-RED:
-bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)   
+pi@raspberry:~ $ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)   
 
 ### To automatically run Node-RED when the Pi boots up, you need to enter the following command:
-sudo systemctl enable nodered.service  
+pi@raspberry:~ $ sudo systemctl enable nodered.service  
 
 ## Installing Node-RED Dashboard
 To install the Node-RED Dashboard run the following commands:  
-node-red-stop  
-cd ~/.node-red  
-npm install node-red-dashboard  
+pi@raspberry:~ $ node-red-stop
+pi@raspberry:~ $ cd ~/.node-red
+pi@raspberry:~/.node-red $ npm install node-red-dashboard
 
 ### Now, restart your Pi so the autostart takes effect:
-sudo reboot  
+pi@raspberry:~ $ sudo reboot  
 
 
 
