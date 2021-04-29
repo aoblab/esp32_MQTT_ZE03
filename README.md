@@ -68,3 +68,10 @@ The following nodes should load:
 
 After making any changes, click the Deploy button to save all the changes  
 ![4](https://user-images.githubusercontent.com/32832715/116503069-29182e00-a8f0-11eb-8db1-75dde841e52a.png)
+
+## Node-RED UI
+Now, your Node-RED application is ready. To access Node-RED UI and see how your application looks, access any browser in your local network and type:  
+http://Your_RPi_IP_address:1880/ui  
+
+![1](https://user-images.githubusercontent.com/32832715/116503291-a80d6680-a8f0-11eb-914c-a5515f1a3059.PNG)
+Your application should look as shown in the following figure. You can control the esp32 board "on/off" and  you can view O3 value readings in a chart
