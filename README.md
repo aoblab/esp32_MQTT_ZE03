@@ -30,11 +30,17 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 ### To automatically run Node-RED when the Pi boots up, you need to enter the following command:
 sudo systemctl enable nodered.service  
 
+## Installing Node-RED Dashboard
+To install the Node-RED Dashboard run the following commands:
+node-red-stop
+cd ~/.node-red
+npm install node-red-dashboard
+
 ### Now, restart your Pi so the autostart takes effect:
 sudo reboot  
 
-### When your Pi is back on, you can test the installation by entering the IP address of your Pi in a web browser followed by the 1880 port number:
-http://Your Raspberry Pi IP ADDRESS:1880
+
+
 ## - Node-RED Dashboard
 ## - Mosquitto Broker
 
