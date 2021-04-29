@@ -17,8 +17,7 @@ https://github.com/knolleary/pubsubclient
 Go to Sketch > Include Library > Add . ZIP library and select the library you’ve just downloaded.
 
 # Preparing Node-RED Dashboard
-The ESP32 is publishing O3 sensor readings every 5 seconds on four MQTT topics. Now, you can use any dashboard that supports MQTT or any other device that supports MQTT to subscribe to those topics and receive the readings.
-
+The ESP32 is publishing O3 sensor readings every 5 seconds on four MQTT topics. Now, you can use any dashboard that supports MQTT or any other device that supports MQTT to subscribe to those topics and receive the readings.   
 If you don’t have Node-RED installed, follow the URL: https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/
 
 # Creating the Node-RED flow
