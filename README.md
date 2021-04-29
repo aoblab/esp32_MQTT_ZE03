@@ -62,3 +62,9 @@ Next, in the Node-RED window, at the top right corner, select the menu, and go t
 
 Then, paste the code provided and click Import  
 ![2](https://user-images.githubusercontent.com/32832715/116502991-f53d0880-a8ef-11eb-8246-3e286388ea66.PNG)
+
+The following nodes should load:  
+![3](https://user-images.githubusercontent.com/32832715/116503059-23224d00-a8f0-11eb-95c5-21bccc4003a2.PNG)
+
+After making any changes, click the Deploy button to save all the changes  
+![4](https://user-images.githubusercontent.com/32832715/116503069-29182e00-a8f0-11eb-8db1-75dde841e52a.png)
