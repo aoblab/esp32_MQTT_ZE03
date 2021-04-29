@@ -11,9 +11,9 @@ The ESP32 is subscribed to that topic. So, it receives the message with “on”
 The ESP32 publishes O3 value on the esp32_001/O3 topic.
 The Node-RED application is subscribed to those topics. So, it receives O3 readings that can be displayed on a chart or gauge, for example.
 
-# Preparing the Arduino IDE and MQTT Libraries
-To use MQTT with the ESP32 we’ll use the Async MQTT Client Library.  
-https://github.com/marvinroger/async-mqtt-client  
+# Preparing Installing the PubSubClient Library
+The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED)  
+https://github.com/knolleary/pubsubclient
 Go to Sketch > Include Library > Add . ZIP library and select the library you’ve just downloaded.
 
 # Preparing Node-RED Dashboard
@@ -24,4 +24,7 @@ If you don’t have Node-RED installed, follow the URL: https://randomnerdtutori
 # Creating the Node-RED flow
 
 # Node-RED UI
-
+Before creating the flow, you need to have installed in your Raspberry Pi:  
+https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/
+https://randomnerdtutorials.com/getting-started-with-node-red-dashboard/
+Mosquitto Broker
