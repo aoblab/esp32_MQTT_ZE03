@@ -36,16 +36,16 @@ node-red-stop
 cd ~/.node-red   
 npm install node-red-dashboard   
 
-### Now, restart your Pi so the autostart takes effect:
+## Now, restart your Pi so the autostart takes effect:
 sudo reboot  
 
+To open the Node-RED UI, type your Raspberry Pi IP address in a web browser followed by :1880/ui as shown below:   
+http://Your_RPi_IP_address:1880/ui
 
+## Mosquitto Broker
+To install the Mosquitto Broker enter these next commands:  
+sudo apt update  
+sudo apt install -y mosquitto mosquitto-clients  
 
-## - Node-RED Dashboard
-## - Mosquitto Broker
-
-# Node-RED UI
-Before creating the flow, you need to have installed in your Raspberry Pi:  
-https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/
-https://randomnerdtutorials.com/getting-started-with-node-red-dashboard/
-Mosquitto Broker
+You’ll have to type Y and press Enter to confirm the installation. To make Mosquitto auto start on boot up enter:  
+sudo systemctl enable mosquitto.service
