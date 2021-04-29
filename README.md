@@ -23,7 +23,7 @@ Go to Sketch > Include Library > Add . ZIP library and select the library you’
 # Preparing Node-RED Dashboard
 The ESP32 is publishing O3 sensor readings every 5 seconds on four MQTT topics. Now, you can use any dashboard that supports MQTT or any other device that supports MQTT to subscribe to those topics and receive the readings.
 
-# enter the following commands to install Node-RED:
+# Enter the following commands to install Node-RED:
 bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)   
 
 # To automatically run Node-RED when the Pi boots up, you need to enter the following command:
