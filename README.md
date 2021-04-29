@@ -19,19 +19,19 @@ Go to Sketch > Include Library > Add . ZIP library and select the library you’
 # Preparing Node-RED Dashboard
 The ESP32 is publishing O3 sensor readings every 5 seconds on four MQTT topics. Now, you can use any dashboard that supports MQTT or any other device that supports MQTT to subscribe to those topics and receive the readings.
 
-## enter the following commands to install Node-RED:
+# enter the following commands to install Node-RED:
 bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)   
 
-## To automatically run Node-RED when the Pi boots up, you need to enter the following command:
+# To automatically run Node-RED when the Pi boots up, you need to enter the following command:
 sudo systemctl enable nodered.service  
 
-## Installing Node-RED Dashboard
+# Installing Node-RED Dashboard
 To install the Node-RED Dashboard run the following commands:  
 node-red-stop   
 cd ~/.node-red   
 npm install node-red-dashboard   
 
-## Mosquitto Broker
+# Mosquitto Broker
 To install the Mosquitto Broker enter these next commands:  
 sudo apt update  
 sudo apt install -y mosquitto mosquitto-clients  
@@ -39,21 +39,21 @@ sudo apt install -y mosquitto mosquitto-clients
 You’ll have to type Y and press Enter to confirm the installation. To make Mosquitto auto start on boot up enter:  
 sudo systemctl enable mosquitto.service
 
-## Testing Installation Send the command:
+# Testing Installation Send the command:
 pi@raspberry:~ $ mosquitto -v  
 This returns the Mosquitto version that is currently running in your Raspberry Pi. It should be 1.4.X or above.  
 ![raspberr-pi-ip-address](https://user-images.githubusercontent.com/32832715/116501838-d426e880-a8ec-11eb-9671-6b361dacf701.png)  
 
-## Raspberry Pi IP Address
+# Raspberry Pi IP Address
 To use Mosquitto broker later on your projects, you’ll need your Raspberry Pi IP address.
 To retrieve your Raspberry Pi IP address, type the next command in your Terminal window:  
 pi@raspberry:~ $ hostname -I
 
-## Node-RED UI  
+# Node-RED UI  
 To open the Node-RED UI, type your Raspberry Pi IP address in a web browser followed by :1880/ui as shown below:   
 http://Your_RPi_IP_address:1880/ui
 
-## Creating the Node-RED flow  
+# Creating the Node-RED flow  
 Import the Node-RED flow provided. Go to the GitHub URL and copy the code provided  
 https://github.com/aoblab/esp32_MQTT_ZE03/blob/f53780e583c471dbc47582efa20534fd5ab6abd8/flows.json#L1
 
@@ -69,7 +69,7 @@ The following nodes should load:
 After making any changes, click the Deploy button to save all the changes  
 ![4](https://user-images.githubusercontent.com/32832715/116503069-29182e00-a8f0-11eb-8db1-75dde841e52a.png)
 
-## Node-RED UI
+# Node-RED UI
 Now, your Node-RED application is ready. To access Node-RED UI and see how your application looks, access any browser in your local network and type:  
 http://Your_RPi_IP_address:1880/ui  
 
