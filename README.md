@@ -30,9 +30,9 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/
 
 ### Autostart Node-RED on boot
 To automatically run Node-RED when the Pi boots up, you need to enter the following command:  
-pi@raspberry:~ $ sudo systemctl enable nodered.service
-Now, restart your Pi so the autostart takes effect:  
-pi@raspberry:~ $ sudo reboot
+pi@raspberry:~ $ sudo systemctl enable nodered.service  
+Now, restart your Pi so the autostart takes effect:   
+pi@raspberry:~ $ sudo reboot  
 
 ## - Node-RED Dashboard
 ## - Mosquitto Broker
