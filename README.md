@@ -40,10 +40,15 @@ You’ll have to type Y and press Enter to confirm the installation. To make Mos
 sudo systemctl enable mosquitto.service
 
 ## Testing Installation Send the command:
-pi@raspberry:~ $ mosquitto -v
-This returns the Mosquitto version that is currently running in your Raspberry Pi. It should be 1.4.X or above.
-![raspberr-pi-ip-address](https://user-images.githubusercontent.com/32832715/116501838-d426e880-a8ec-11eb-9671-6b361dacf701.png)
+pi@raspberry:~ $ mosquitto -v  
+This returns the Mosquitto version that is currently running in your Raspberry Pi. It should be 1.4.X or above.  
+![raspberr-pi-ip-address](https://user-images.githubusercontent.com/32832715/116501838-d426e880-a8ec-11eb-9671-6b361dacf701.png)  
 
+## Raspberry Pi IP Address
+To use Mosquitto broker later on your projects, you’ll need your Raspberry Pi IP address.
+To retrieve your Raspberry Pi IP address, type the next command in your Terminal window:  
+pi@raspberry:~ $ hostname -I
 
+## Node-RED UI  
 To open the Node-RED UI, type your Raspberry Pi IP address in a web browser followed by :1880/ui as shown below:   
 http://Your_RPi_IP_address:1880/ui
