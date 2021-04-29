@@ -52,3 +52,13 @@ pi@raspberry:~ $ hostname -I
 ## Node-RED UI  
 To open the Node-RED UI, type your Raspberry Pi IP address in a web browser followed by :1880/ui as shown below:   
 http://Your_RPi_IP_address:1880/ui
+
+## Creating the Node-RED flow  
+Import the Node-RED flow provided. Go to the GitHub URL and copy the code provided  
+https://github.com/aoblab/esp32_MQTT_ZE03/blob/f53780e583c471dbc47582efa20534fd5ab6abd8/flows.json#L1
+
+Next, in the Node-RED window, at the top right corner, select the menu, and go to Import  > Clipboard  
+![1](https://user-images.githubusercontent.com/32832715/116502988-f40bdb80-a8ef-11eb-8f8b-d6315cb9c3ab.png)
+
+Then, paste the code provided and click Import  
+![2](https://user-images.githubusercontent.com/32832715/116502991-f53d0880-a8ef-11eb-8246-3e286388ea66.PNG)
