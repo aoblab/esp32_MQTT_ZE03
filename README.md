@@ -22,6 +22,10 @@ The ESP32 is publishing O3 sensor readings every 5 seconds on four MQTT topics. 
 If you don’t have Node-RED installed, follow the URL: https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/
 
 # Creating the Node-RED flow
+Before creating the flow, you need to have installed in your Raspberry Pi:
+## - Node-RED
+## - Node-RED Dashboard
+## - Mosquitto Broker
 
 # Node-RED UI
 Before creating the flow, you need to have installed in your Raspberry Pi:  
