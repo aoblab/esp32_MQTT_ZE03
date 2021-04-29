@@ -13,7 +13,7 @@ The Node-RED application is subscribed to those topics. So, it receives O3 readi
 
 # Uploading code  
 You can upload the ide code to your ESP32. detailed explanation is in the code comments. If you need to change the code, you can change it.  
-
+https://github.com/aoblab/esp32_MQTT_ZE03/blob/main/esp32_MQTT/esp32_MQTT.ino
 
 # Preparing Installing the PubSubClient Library
 The PubSubClient library provides a client for doing simple publish/subscribe messaging with a server that supports MQTT (basically allows your ESP32 to talk with Node-RED)  
